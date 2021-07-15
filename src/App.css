@@ -1,8 +1,4 @@
-body {
-  background-image: url("https://images.unsplash.com/photo-1502045856-4882464b27a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb58b8557664af04651b19dbe014a86e&auto=format&fit=crop&w=1600&q=60");
-  background-size: cover;  
-  
-}
+
 
 .containner {
   align-content: center;
@@ -25,57 +21,73 @@ body {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1502045856-4882464b27a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb58b8557664af04651b19dbe014a86e&auto=format&fit=crop&w=1600&q=60");
+    background-size: cover;  
+    
+  }
   .list {
       background-color: rgba(255, 255, 255, .15);
       margin-left: 20vw;
-      margin-right: 40vw;
+      margin-right: 20vw;
       margin-bottom: 80px;
       border-radius: 10px;
   }
  
   li {
-    color:black;
+    color:#482762;
     margin-left: 10vw;
   }
   h1, p {
     color:#482762;
     margin-left: 10vw;
+    font-weight: 600;
   }
   
   button {
-    color: black; 
+    color: white; 
     background: #a0829b;
     margin-left: 0.5rem;
     padding: 0.4rem;
     border-radius: 5px;
+    font-size: larger;
   }   
   
   input {
     border-radius: 5px;
     padding: 8px;
     margin-left: 10vw;
+    font-size: larger;
+  
   }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-image: url('https://images.unsplash.com/photo-1567880905822-56f8e06fe630?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhZmV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: contain; 
+    height: 100vh;
+  }
   .list {
     background-color: rgba(255, 255, 255, .15);
-    margin-left: 20vw;
-    margin-right: 40vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     margin-bottom: 80px;
     border-radius: 10px;
 }
 
 li {
-  color:black;
+  color:#482762;
   margin-left: 5vw;
 }
 h1, p {
   color:#482762;
-  margin-left: 5vw;
+  margin-left: 20vw;
 }
 p {
-  color:white;
+  color:#482762;
+  margin-left: 10vw;
+  font-size: large;
 }
 
 button {
@@ -84,36 +96,43 @@ button {
   margin-left: 0.5rem;
   padding: 0.4rem;
   border-radius: 5px;
+  font-size: large;
 }   
 
 input {
   border-radius: 5px;
   padding: 8px;
   margin-left: 5vw;
+  font-size: large;
 }
 }
 
 @media (min-width: 376px) and (max-width: 600px) {
-
+  body {
+    background-image: url('https://images.unsplash.com/photo-1567880905822-56f8e06fe630?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhZmV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover; 
+    height:100vh;
+  }
   .list {
     background-color: rgba(255, 255, 255, .30);
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     margin-bottom: 80px;
     border-radius: 10px;
 }
 
 li {
-  color:black;
+  color:#482762;
   margin-left: 10vw;
 }
 h1, p {
   color:#482762;
-  margin-left: 10vw;
+  margin-left: 15vw;
 }
 p {
-  color:white;
+  color:#482762;
   margin-left: 10vw;
+  font-weight: 600;
 }
 
 button {
@@ -122,17 +141,24 @@ button {
   margin-left: 0.5rem;
   padding: 0.4rem;
   border-radius: 5px;
+  font-size: medium;
 }   
 
 input {
   border-radius: 5px;
   padding: 8px;
-  margin-left: 10vw;
+  margin-left: 1vw;
+  font-size: medium;
 }
 }
 
 
 @media (max-width: 376px) {
+  body {
+    background-image: url('https://images.unsplash.com/photo-1567880905822-56f8e06fe630?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhZmV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover; 
+    height:100vh;
+  }
   .list {
     background-color: rgba(255, 255, 255, .40);
     margin-left: 10px;
@@ -142,16 +168,17 @@ input {
 }
 
 li {
-  color:black;
+  color:#482762;
   margin-left: 5vw;
 }
 h1, p {
   color:#482762;
-  margin-left: 10vw;
+  margin-left: 15vw;
 }
 p {
-  color:white;
-  margin-left: 2vw;
+  color:#482762;
+  margin-left: 5vw;
+  font-weight: 600;
 }
 
 button {
@@ -160,10 +187,12 @@ button {
   margin-left: 0.5rem;
   padding: 0.4rem;
   border-radius: 5px;
+  font-size: small;
 }   
 
 input {
   border-radius: 5px;
+  font-size: small;
   padding: 8px;
   margin-left: 5vw;
   width: 50vw;

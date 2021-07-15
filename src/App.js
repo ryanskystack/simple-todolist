@@ -53,7 +53,7 @@ export default function TodoList() {
           Get it done today
         </p>
         <p className="summary">
-          {remainingNum} remaining out of {totalNum} tasks
+          <b>{remainingNum}</b> remaining out of <b>{totalNum}</b> tasks
         </p>
         <input
           type="text"
