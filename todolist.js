@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function App() {
+export default function TodoList() {
   const [totalNum, setTotalNum] = useState(0);
   const [remainingNum, setRemainingNum] = useState(0);
   const [userInput, setUserInput] = useState("");
