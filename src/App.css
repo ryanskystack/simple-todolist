@@ -143,8 +143,8 @@ input {
 @media (min-width: 376px) and (max-width: 600px) {
   body {
     background-image: url('https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=292&q=80');
-    background-size: cover; 
-    height:100%;   
+    background-size:cover; 
+    height:100vh;   
   }
   .container {
     background-color: rgba(255, 255, 255, .30);
@@ -157,6 +157,8 @@ input {
 li {
   color:#482762;
   margin-left: 10vw;
+  font-size: large;
+  font-weight: 600;
 }
 h1, p {
   color:#482762;
@@ -194,7 +196,7 @@ input {
   margin-bottom: 10px;
   padding: 2px;
   border-radius: 5px;
-  font-size: smaller;
+  font-size: small;
 }
 }
 
